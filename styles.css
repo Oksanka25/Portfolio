@@ -1,0 +1,38 @@
+body {
+    background-color: #8ecae6;
+}
+
+nav {
+    background-color: #219EBC;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #FB8500;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 17px;
+}
+
+.heading {
+    text-decoration: underline;
+    color: #ffb703;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
