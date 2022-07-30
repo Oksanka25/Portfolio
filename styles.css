@@ -1,12 +1,16 @@
 body {
-    background-color: #8ecae6;
+    /* background-color: #caf0f8; */
+    background-image: url("https://oldschoolgrappling.com/wp-content/uploads/2018/08/Background-opera-speeddials-community-web-simple-backgrounds.jpg");
+    /* background-image: url("https://img.freepik.com/premium-photo/simple-white-background-with-smooth-lines-light-colors_476363-5558.jpg?w=2000"); */
 }
 
+
 nav {
-    background-color: #219EBC;
+    background-color: #d7eaef;
     font-size: 20px;
     display: flex;
     justify-content: flex-end;
+    padding: 15px;
 
 }
 
