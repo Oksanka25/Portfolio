@@ -33,6 +33,7 @@ footer {
     background-color: #d7eaef;
     width: 100%;
     height: 25px;
+    scroll-margin-top: 20px;
 }
 
 
@@ -97,6 +98,12 @@ p {
 
 #about-container {
     margin: 15px;
+
+}
+
+#about-container a {
+    text-decoration: none;
+    color: #FB8500;
 }
 
 .heading {
@@ -107,4 +114,31 @@ p {
 .bio {
     display: flex;
     justify-content: space-between;
+
+
+}
+
+.bio-text {
+    margin-top: 50px;
+    margin-left: 35px;
+    position: absoloute;
+
+}
+
+#video {
+    padding-bottom: 20px;
+}
+
+/* Projects Page */
+
+.projects-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.projects-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
