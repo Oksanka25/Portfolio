@@ -142,3 +142,39 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+.projects-table img {
+    width: 30vw;
+    height: 30vh;
+    border-radius: 6px;
+    object-fit: fill;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: transform .2s;
+
+}
+
+.projects-table img:hover {
+    transform: scale(1.2);
+}
+
+#projects-links a {
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#projects-links a:hover {
+    background: rgb(189, 189, 192);
+}
+
+.projects-image:hover {
+    transform: scale(1.0);
+}
